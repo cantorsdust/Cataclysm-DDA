@@ -447,7 +447,7 @@ ifdef TILES
         ifdef MSYS2
           LDFLAGS += -lfreetype -lpng -lz -ltiff -lbz2 -lharfbuzz -lglib-2.0 -llzma -lws2_32 -lintl -liconv -lwebp -ljpeg -luuid
         else
-          LDFLAGS += -lfreetype -lpng -lz -ljpeg -lbz2
+          LDFLAGS += -lfreetype
         endif
       endif
     else
